@@ -90,12 +90,6 @@
       }
     }
 
-    a.portfolio-link {
-      &:after {
-        content: 'PORTFOLIO';
-      }
-    }
-
     a.active {
       svg {
         color: #ffd700;
@@ -121,7 +115,7 @@
         line-height: 16px;
         color: #4d4d4e;
 
-        &:hover {
+        &:hover svg{
           color: #ffd700;
         }
       }
